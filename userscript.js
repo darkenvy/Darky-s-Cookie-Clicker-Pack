@@ -81,7 +81,9 @@
 
     eval('Game.crate = ' + Game.crate.toString().split(' shadow\';').join(' shadow\'; if (me.darky == 1) classes+=\' darky\';').split('mysterious?').join('mysterious? (me.darky == 1) ? \'background-image:url(\\\'https://i.imgur.com/JKKvixm.png\\\')\' : '));
 
-    eval('Game.crateTooltip = ' + Game.crateTooltip.toString().split('if (mysterious) icon=[0,7];').join('if (mysterious) icon=[0,7]; if (mysterious && me.darky == 1) icon = [0, 0, \'https://i.imgur.com/JKKvixm.png\']'));
+    // todo: this line is broken
+    // eval('Game.crateTooltip = ' + Game.crateTooltip.toString().split('if (mysterious) icon=[0,7];').join('if (mysterious) icon=[0,7]; if (mysterious && me.darky == 1) icon = [0, 0, \'https://i.imgur.com/JKKvixm.png\']'));
+
 
 
     addDarkyCSS();
